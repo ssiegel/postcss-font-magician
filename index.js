@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const getDirectoryFonts = require('directory-fonts-complete');
+const getDirectoryFonts = require('@sbsiegel/directory-fonts-complete');
 
 // Options
 

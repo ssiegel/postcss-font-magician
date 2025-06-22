@@ -1,19 +1,20 @@
 {
-	"name": "postcss-font-magician",
-	"version": "4.0.0",
-	"description": "PostCSS plugin that magically generates all the @font-face rules",
+	"name": "@sbsiegel/postcss-font-magician",
+	"version": "4.0.0-sbsiegel.0",
+	"description": "PostCSS plugin that magically generates all the @font-face rules (fork using fixed directory-fonts-complete)",
 	"author": "Jonathan Neal <jonathantneal@hotmail.com>",
 	"contributors": [
 		"Jonathan Neal <jonathantneal@hotmail.com>",
-		"Ruslan Abdullaev <skarlatin@mail.ru>"
+		"Ruslan Abdullaev <skarlatin@mail.ru>",
+		"Stefan Siegel <ssiegel@sdas.net>"
 	],
 	"license": "CC0-1.0",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/csstools/postcss-font-magician.git"
+		"url": "git+https://github.com/ssiegel/postcss-font-magician.git"
 	},
-	"homepage": "https://github.com/csstools/postcss-font-magician#readme",
-	"bugs": "https://github.com/csstools/postcss-font-magician/issues",
+	"homepage": "https://github.com/ssiegel/postcss-font-magician#readme",
+	"bugs": "https://github.com/ssiegel/postcss-font-magician/issues",
 	"main": "index.js",
 	"scripts": {
 		"test": "node --test ./test/_tape.cjs",

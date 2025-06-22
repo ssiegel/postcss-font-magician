@@ -309,7 +309,7 @@ function getFontFaceRules(postcss, node, family, foundries, options) {
 						urls,
 						weight,
 						formats: null,
-						ranges: null,
+						ranges: [urls.range.join(', ')],
 						stretch: null,
 						display: options.display
 					},

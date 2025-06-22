@@ -1,6 +1,6 @@
 {
 	"name": "@sbsiegel/postcss-font-magician",
-	"version": "4.0.0-sbsiegel.0",
+	"version": "4.0.0-sbsiegel.1",
 	"description": "PostCSS plugin that magically generates all the @font-face rules (fork using fixed directory-fonts-complete)",
 	"author": "Jonathan Neal <jonathantneal@hotmail.com>",
 	"contributors": [

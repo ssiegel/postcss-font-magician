@@ -243,9 +243,7 @@ function getValueByDeclaration(rule, property) {
 
 function getFirstFontFamily(list, decl) {
 	return getQuoteless(
-		list.space(
-			list.comma(decl.value)[0]
-		).slice(-1)[0]
+		list.comma(decl.value)[0]
 	);
 }
 
